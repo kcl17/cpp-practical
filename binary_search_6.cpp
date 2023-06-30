@@ -3,7 +3,7 @@ using namespace std;
 
 int binarySearchRecursive(int arr[], int low, int high, int x) {
     if (high >= low) {
-        int mid = low + (high - low) / 2;
+        int mid = low + (high - low)/ 2;
 
         if (arr[mid] == x) {
             return mid;
