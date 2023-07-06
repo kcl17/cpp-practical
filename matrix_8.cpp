@@ -80,7 +80,7 @@ int main()
     Matrix B(rows2, cols2);
     cout << "Enter elements of second matrix: ";
     B.read();
-
+    Matrix C (0,0);
     try {
         C = A + B;
         C.print();
